@@ -1,0 +1,57 @@
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+img {
+  border: 0;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.panel {
+  padding: 44px 0;
+}
+.btn {
+  padding: 12px 0;
+  border: 0;
+  border-radius: 6px;
+  background-color: #f7c94b;
+  color: #fff;
+}
+.container {
+  padding: 0 15px;
+}
+.input-cell {
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+input {
+  width: 100%;
+  padding: 12px 0;
+  border: 0;
+  color: #999;
+  background-color: transparent;
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.icon-arrow {
+  display: block;
+  width: 11px;
+  height: 21px;
+  background: url('../assets/我的-详情按钮.png') no-repeat;
+  background-size: 100%;
+}
